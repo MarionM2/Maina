@@ -1,0 +1,84 @@
+
+#hero{
+    background-image: url("images/jumping\ dog.jpg");
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+  
+}
+
+#hero-content{
+    background-color: rgba(51, 47, 47, 0.8);
+    box-shadow: 2px 4px 8px rgb(68, 67,67);
+    color: rgb(187, 184, 26);
+    padding: 40px 0;
+    margin: 0 auto;
+    width: 900px;
+    position: relative;
+    top:300px;
+    border-radius: 30px;
+    text-align: center;
+    
+}
+
+#hero-content h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+#hero-content p{
+    font-family: 'Quicksand', sans-serif ;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+#hero-content a{
+    margin-top: 22px;
+    font-size: 20px;
+    padding: 15px;
+    background-color: black;
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgb(160, 160, 31); ;
+}
+#hero-content a:hover{
+    background-color: yellow;
+    color: black;
+}
+#highlights{
+    padding:20px;
+    background: linear-gradient(180deg,rgb(241, 221, 183),rgb(150, 130, 99),rgb(247, 214, 167));
+}
+#highlights h2{
+    color: rgb(104, 95, 26);
+    font-size: 40px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#preview{
+    display: flex;
+    margin:auto;
+    width:90%;
+    margin-bottom: 40px;
+}
+.preview{
+    margin:0 10px;
+}
+
+.preview img{
+    height:200px;
+    object-fit: cover;
+}
+.preview strong{
+    color:rgb(5, 65, 8);
+}
+.preview p{
+    color: rgb(7, 6, 0);
+    font-size: 16px;
+    font-family: 'Raleway';
+}
